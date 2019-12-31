@@ -10,10 +10,10 @@ window.onload = () => {
     document.body.appendChild( renderer.domElement );
     
     var geometry = new THREE.BoxGeometry( 1,1,1 );
-    var material = new THREE.MeshBasicMaterial( { color: 'blue' } );
+    var material = new THREE.MeshBasicMaterial( { color: '#4488EE' } );
     var cube = new THREE.Mesh( geometry, material );
 
-    var lineMaterial = new THREE.LineBasicMaterial( { color: 'blue' } );
+    var lineMaterial = new THREE.LineBasicMaterial( { color: '#4488EE' } );
     var geometry = new THREE.Geometry();
     geometry.vertices.push(new THREE.Vector3( -1, 0, 0) );
     geometry.vertices.push(new THREE.Vector3( 0, 1, 0) );
